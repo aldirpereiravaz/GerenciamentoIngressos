@@ -3,7 +3,7 @@ export class Ingresso {
     private valor: number;
     private nomeEvento: string;
 
-    Constructor (codigo: string, valor: number, nomeEvento: string) {
+    constructor (codigo: string, valor: number, nomeEvento: string) {
         this.codigo = codigo;
         this.valor = valor;
         this.nomeEvento = nomeEvento;

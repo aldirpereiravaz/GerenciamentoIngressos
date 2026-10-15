@@ -3,7 +3,7 @@ import {Ingresso} from "./Ingresso";
 export class IngressoVip extends Ingresso {
     private valorAdicional: number;
 
-    construtor(
+    constructor(
         codigo: string,
         valor: number,
         nomeEvento: string,
@@ -13,7 +13,7 @@ export class IngressoVip extends Ingresso {
         this.valorAdicional = valorAdicional;
     }
 
-getVAlorAdicional(): number {
+getValorAdicional(): number {
     return this.valorAdicional;
 }
 
@@ -22,7 +22,7 @@ getVAlorAdicional(): number {
  }
 
 calcularValor(): number {
-    return this.getValor() + this.valorAdicional;
+    return this.getvalor() + this.valorAdicional;
 }
 
 exibirDados(): string {
